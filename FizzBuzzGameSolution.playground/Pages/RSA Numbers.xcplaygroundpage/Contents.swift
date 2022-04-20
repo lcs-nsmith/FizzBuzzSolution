@@ -7,7 +7,7 @@ let upperBound = 150
 var howManyRSANumbers = 0
 
 for n in lowerBound...upperBound {
-    var divisors = 0
+    var divisors = 0    
     for j in 1...n {
         if n.isMultiple(of: j) {
             divisors += 1

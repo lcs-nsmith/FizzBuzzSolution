@@ -17,5 +17,5 @@ for n in lowerBound...upperBound {
         howManyRSANumbers += 1
     }
 }
-print(howManyRSANumbers)
+print("There are \(howManyRSANumbers) RSA Numbers between \(lowerBound) and \(upperBound)")
 //: [Next](@next)

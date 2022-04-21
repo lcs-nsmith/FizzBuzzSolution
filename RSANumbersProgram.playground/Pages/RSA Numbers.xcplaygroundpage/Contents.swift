@@ -3,7 +3,7 @@
 import Foundation
 
 let lowerBound = 1
-let upperBound = 150
+let upperBound = 10000
 var howManyRSANumbers = 0
 
 for n in lowerBound...upperBound {
